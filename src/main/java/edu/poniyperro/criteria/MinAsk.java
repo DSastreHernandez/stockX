@@ -7,8 +7,8 @@ import edu.poniyperro.offer.Offer;
 import java.util.List;
 import java.util.Optional;
 
-public class minAsk implements Criteria{
-    public minAsk() {}
+public class MinAsk implements Criteria{
+    public MinAsk() {}
 
     @Override
     public List<Offer> checkCriteria(Item ask) {
